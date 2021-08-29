@@ -13,7 +13,7 @@ WORKDIR /usr/src/app
 COPY ./requirements.txt .
 RUN pip install -r requirements.txt
 
-# add app
+# add app #
 COPY . .
 
 # run server
